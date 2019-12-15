@@ -1,3 +1,9 @@
+# Effervescence
+
+[![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
+
+Blend noise and your own music to manually construct an audio-augmented reality.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
