@@ -1,0 +1,16 @@
+/* purgecss start ignore */
+@tailwind base;
+/* here goes custom base */
+
+
+@tailwind components;
+/* here goes custom components */
+
+/* for audio and trans control bars only */
+.control-bar {
+  @apply max-w-sm bg-black text-white text-center items-stretch;
+}
+
+/* purgecss end ignore */
+
+@tailwind utilities;
