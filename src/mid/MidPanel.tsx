@@ -5,7 +5,7 @@ import Footer from './Footer'
 import Logo from './Logo'
 import TransControlBar from './TransControlBar'
 
-const MainPanel: React.FC = () => (
+const MidPanel: React.FC = () => (
   <div className='flex-grow w-1/3'>
     <Logo />
     <AudioControlBar />
@@ -14,4 +14,4 @@ const MainPanel: React.FC = () => (
   </div>
 )
 
-export default MainPanel
+export default MidPanel

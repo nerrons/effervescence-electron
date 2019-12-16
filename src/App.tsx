@@ -11,11 +11,12 @@ import AboutPage from './AboutPage'
 import Effercescence from './Effervescence'
 import SettingsPage from './SettingsPage'
 import './css/tailwind.css'
+import './css/iosevka.css'
 
 const App: React.FC = () => {
   return (
     <Router>
-      <div>
+      <div className='font-iosevka'>
         <Switch>
           <Route path='/about'>
             <AboutPage />
