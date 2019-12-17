@@ -10,4 +10,5 @@
     "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
     "javascript.format.enable": false,
     "typescript.format.enable": false,
+    "gitlens.codeLens.enabled": false,
 }

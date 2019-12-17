@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import '../css/tailwind.css'
 
+import DashboardPanel from './DashboardPanel'
+
 interface Props {
   a?: string;
 }
@@ -8,14 +10,16 @@ interface State {
   b?: string;
 }
 
-class LeftPanel extends Component<Props, State> {
+class RightSpace extends Component<Props, State> {
   state = {}
 
   render (): React.ReactNode {
     return (
-      <div className='w-1/3 bg-gray-400'></div>
+      <div className='side-space'>
+        <DashboardPanel />
+      </div>
     )
   }
 }
 
-export default LeftPanel
+export default RightSpace

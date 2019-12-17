@@ -1407,6 +1407,10 @@
     "@types/react-dom" "*"
     "@types/testing-library__dom" "*"
 
+"@types/tone@https://github.com/Tonejs/TypeScript.git":
+  version "0.2.0"
+  resolved "https://github.com/Tonejs/TypeScript.git#ceeb1771730a57164efccd53780e5bf8070c56a0"
+
 "@types/yargs-parser@*":
   version "13.1.0"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-13.1.0.tgz#c563aa192f39350a1d18da36c5a8da382bbd8228"
@@ -8671,6 +8675,11 @@ react-app-polyfill@^1.0.5:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
+react-circular-input@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/react-circular-input/-/react-circular-input-0.1.6.tgz#e7b26817ca5b8f3a2de4b8d0c62b76961134ffc7"
+  integrity sha512-MELeTANICDuky+vJ/dLf7+dPufNajfAPeU5glo7dgcDsC0gEAJJ9MaVOTy3FsU9xcXC2G122qPBQNXMMlKYJng==
+
 react-dev-utils@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.0.0.tgz#bd2d16426c7e4cbfed1b46fb9e2ac98ec06fcdfa"
@@ -10217,6 +10226,11 @@ toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
+
+tone@^13.8.25:
+  version "13.8.25"
+  resolved "https://registry.yarnpkg.com/tone/-/tone-13.8.25.tgz#057eefb39d4c749524db0ca210e34303cdc3c025"
+  integrity sha512-8QqmLn+/R+Urib/78zf93+NqFLddXS777kQO7+EbJHwqy+nmug+SJFRp2KIytT0LQY2sJBiopNb2ceHA8uQQJg==
 
 tough-cookie@^2.3.3, tough-cookie@^2.3.4, tough-cookie@^2.5.0:
   version "2.5.0"
